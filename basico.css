@@ -172,8 +172,6 @@ body {
   width: 200px;
   height: 200px;
   padding: 10px;
-  border-radius: 110px;
-  border: 2px solid white;
   background-color: #fff;
   transition: border-color 250ms ease-out;
 }
@@ -181,6 +179,8 @@ body {
 .animal:not(.alimentado):not(.perturbado):not(.instinto-selvagem):hover {
   border-color: silver;
 }
+
+
 
 
 /* -----------------------------------------

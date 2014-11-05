@@ -12,20 +12,31 @@
  * sprite). O código html das imagens dos animais é gerado dinamicamente por
  * jogo.js. Mais especificamente, procure pela função preencheAnimaisNaTela().
  */
+
+
 .animal {
-    width: 200px;
+    box-sizing:border-box;
+    width: 200px; 
     height: 200px;
     overflow: hidden; 
     position: relative;
-    margin-top:50px;
-    background: url(imgs/sprites.png) no-repeat;
+    
     border: 5px solid white;
     border-radius: 110px;
-    margin-bottom:100px;
-    margin-top:50px;
 }
 
 
+
+
+
+.animal img {
+
+    width: 1000px; 
+    height: 400px;
+    position: absolute;
+
+
+ }
 
 #info{
     margin-top:150px;
@@ -33,56 +44,74 @@
 
 
 
-#comando{
-    margin-top:100px;
+
+#peixe img{
+    
+      left: -210px;
+      top: -210px;
+    
 }
-
-#controles{
-    margin-top:50px;
-}
+     
 
 
-
-#peixe{
-    background-position: -200px -200px ;
-}
-
-#leao{
-    background-position: -200px 0;
+#leao img{
+    
+      left: -210px;
+      top: -12px;
     
 }
 
-#gato{ 
-    background-position: -800px 0;
-}
 
 
-#cachorro{
-    background-position: -600px -200px ;
-}
-#girafa  {
-	background-position: -400px -200px ; }
-#rato{
-    background-position: 0 -200px ;
-}
-
-
-#hipopotamo {
-    background-position: -400px 0;
+#gato img{ 
+    
+      left: -815px;
+      top: -14px;
 }
 
 
 
 
 
+#cachorro img{
+      left: -610px;
+      top: -210px;
+}
 
-
-#coelho{
-	background-position: -600px 0;
+#girafa img{
+	
+      left: -410px;
+      top: -210px;
+     }
+#rato img{
+    
+      left: -10px;
+      top: -210px;
 }
 
 
-#urso{background-position: 0 0; }
+
+#hipopotamo img{
+    
+      left: -410px;
+      top: -14px;
+}
+
+
+#coelho img{
+    
+      left: -610px;
+      top: -14px;
+}
+
+
+
+#urso img{
+    
+      left: -10px;
+      top: -14px;
+}
+
 
 .animal .desconhecido {
     position: relative;
